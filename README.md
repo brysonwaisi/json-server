@@ -12,11 +12,11 @@ NPM package  that lets us create false REST APIs for Prototyping
 * Example: http://localhost:3000/reviews
 
 
-* **FILTERING**
+### FILTERING
 
 * Example: http://localhost:3000/products?category=electronics&discount.type=shipping
 
-* **SORT** 
+### SORT
 
 * Example: http://localhost:3000/products?_sort=price
 
@@ -24,12 +24,12 @@ NPM package  that lets us create false REST APIs for Prototyping
 
 * by category in ascending and price in descending: http://localhost:3000/products?_sort=price,category&_order=desc,asc
 
-* **Pagination**
+### Pagination
 
 * http://localhost:3000/products?_page=1
 * http://localhost:3000/products?_page=1&_limit=2   etc. 
 
-* **Operators** 
+### Operators
 
 * >= & <= : ### http://localhost:3000/products?price_gte=2000&price_lte=6000
 
@@ -37,11 +37,11 @@ NPM package  that lets us create false REST APIs for Prototyping
 
 * like operator that lets you specify regex to filter data: http://localhost:3000/products?category_like=^f  --- filter all products starting with 'f'
 
-* **Full Text Search (q - query parameter)**
+### Full Text Search (q - query parameter)
 
 * Exanple: http://localhost:3000/products?q=in
 
-* **Relationships**
+### Relationships
 
 * http://localhost:3000/products?_embed=reviews
 * http://localhost:3000/products/1?_embed=reviews 
