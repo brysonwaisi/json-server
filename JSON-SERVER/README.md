@@ -63,7 +63,7 @@ NPM package  that lets us create false REST APIs for Prototyping
 
 * specifying port number- Default is 3000, we specify in the [package.json](./package.json): serve-json script the port to run our server to avoid conflicts with other applications like React that run on port 3000
 
-* Custom routes [routes.json](./routes.json) specified further in [package.json] scripts
+* Custom routes [routes.json](./routes.json) specified further in [package.json](./package.json) scripts
 
 ## Generate Random Data
 
